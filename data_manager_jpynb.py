@@ -13,7 +13,7 @@ import os
 import pickle
 import hashlib
 import pandas as pd
-from . import config
+import config
 
 def setup_drive_folder():
     """Ensures the data folder exists in Google Drive."""
