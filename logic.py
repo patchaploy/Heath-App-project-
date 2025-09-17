@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 import datetime
 import gradio as gr
-from .data_manager import user_health_data, save_data, _hash_password
+from data_manager import user_health_data, save_data, _hash_password
 
 # --- Calculation Helper Functions ---
 
