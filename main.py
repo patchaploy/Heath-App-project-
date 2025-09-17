@@ -169,7 +169,7 @@ def run_app():
             ]
         )
 
-    app.launch(debug=True)
+    app.launch(share=True)
 
 
 if __name__ == "__main__":
