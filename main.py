@@ -1,13 +1,12 @@
 # health_app/main.py
 
-from google.colab import drive
+
 import data_manager
 import logic
 from app_interface import build_ui
 def main():
     # --- Initial Setup ---
-    # 1. Connect to Google Drive
-    drive.mount('/content/drive')
+  
     
     # 2. Ensure the data folder exists
     data_manager.setup_drive_folder()
