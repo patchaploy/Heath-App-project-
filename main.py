@@ -2,14 +2,13 @@
 
 import gradio as gr
 import pandas as pd
-from google.colab import drive
+
 
 import data_manager
 import logic
 
 def run_app():
-    
-    drive.mount('/content/drive')
+ 
     data_manager.setup_drive_folder()
 
     # --- UI and Styling ---
