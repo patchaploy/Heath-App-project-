@@ -1,0 +1,5 @@
+# requirements.txt
+gradio
+pandas
+numpy
+firebase-admin
