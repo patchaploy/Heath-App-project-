@@ -5,4 +5,4 @@ from interface import app
 if __name__ == "__main__":
     # The datamanager.py file handles mounting Google Drive,
     # so we just need to launch the UI here.
-    app.launch(debug=True)
+    app.launch(share=True)
