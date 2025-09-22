@@ -2,4 +2,3 @@
 gradio
 pandas
 numpy
-firebase-admin
